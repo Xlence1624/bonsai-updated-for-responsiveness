@@ -1,0 +1,1245 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- navigation section -->
+    <nav class="nav">
+      <img src="./images/bonsai logo.png" alt="" />
+
+      <li onclick="mobnav()" class="ham-menu">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          height="28px"
+          viewBox="0 -960 960 960"
+          width="28px"
+          fill="#808080"
+        >
+          <path
+            d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"
+          />
+        </svg>
+      </li>
+
+      <ul class="nav-menu" id="nav-menu">
+        <li><a href="#">Product</a></li>
+        <li><a href="#">Templates</a></li>
+        <li><a href="#">Pricing</a></li>
+        <li><a href="#">Reviews</a></li>
+        <li class="btn-wrapper">
+          <a class="login">LOG IN</a>
+          <a class="start">START FREE</a>
+        </li>
+      </ul>
+
+      <div class="mob-nav" id="mob-nav">
+        <div class="close">
+          <img src="./images/bonsai logo.png" alt="" />
+          <svg
+            onclick="closesvg()"
+            xmlns="http://www.w3.org/2000/svg"
+            height="24px"
+            class="close-svg"
+            viewBox="0 -960 960 960"
+            width="24px"
+            fill="#808080"
+          >
+            <path
+              d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"
+            />
+          </svg>
+        </div>
+
+        <ul class="nav-menu" id="nav-menu">
+          <li><a href="#">Product</a></li>
+          <li><a href="#">Templates</a></li>
+          <li><a href="#">Pricing</a></li>
+          <li><a href="#">Reviews</a></li>
+          <li class="btn-wrapper">
+            <a class="login">LOG IN</a>
+          </li>
+          <li class="btn-wrapper"><a class="start">START FREE</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <!--plans and pricing section-->
+
+    <section class="planspricing">
+      <div class="box1">
+        <h1>Plans & Pricing</h1>
+        <div class="plan">
+          <img
+            class="monthfree"
+            src="./images/5e9d7255d3886a6103fb12a9_FREE-text.svg"
+            alt=""
+          />
+          MONTHLY
+          <div class="toggle-switch">
+            <input
+              type="checkbox"
+              class="toggle-switch__input"
+              id="toggle-switch-1"
+            />
+            <label class="toggle-switch__label" for="toggle-switch-1">
+              <span class="toggle-switch__text toggle-switch__text--off"></span>
+              <span class="toggle-switch__text toggle-switch__text--on"></span>
+            </label>
+          </div>
+
+          YEARLY
+        </div>
+      </div>
+    </section>
+    <!--cards section-->
+
+    <div class="cards-container">
+      <div class="cards">
+        <div class="card-title">Starter</div>
+        <div class="description">
+          Ideal for freelancers and contractors just starting out.
+        </div>
+        <div class="price-box">
+          <span class="currency-symbol">$</span>
+          24
+          <span class="duration">/MONTH</span>
+        </div>
+        <hr />
+
+        <div class="plan-features">
+          <div class="features">
+            <svg
+              width="10px"
+              height="7px"
+              viewBox="0 0 10 7"
+              version="1.1"
+              xmlns="http://www.w3.org/2000/svg"
+              xmlns:xlink="http://www.w3.org/1999/xlink"
+            >
+              <!-- Generator: Sketch 62 (91390) - https://sketch.com -->
+              <title>Path Copy 6</title>
+              <desc>Created with Sketch.</desc>
+              <g
+                id="Page-1"
+                stroke="none"
+                stroke-width="1"
+                fill="none"
+                fill-rule="evenodd"
+              >
+                <g
+                  id="v1_A"
+                  transform="translate(-330.000000, -883.000000)"
+                  fill="#01B289"
+                  fill-rule="nonzero"
+                >
+                  <g id="Group-9" transform="translate(330.000000, 630.000000)">
+                    <path
+                      d="M9.76036711,254.456303 L4.484493,259.761794 C4.33375374,259.91338 4.11841194,260 3.88153596,260 C3.64465998,260 3.45085235,259.91338 3.27857891,259.761794 L0.242259526,256.70843 C-0.0807531752,256.383604 -0.0807531752,255.842227 0.242259526,255.517401 C0.565272227,255.192575 1.10362673,255.192575 1.42663943,255.517401 L3.86000178,257.964424 L8.55445303,253.243619 C8.87746573,252.918794 9.41582023,252.918794 9.73883293,253.243619 C10.0833798,253.590101 10.0833798,254.109822 9.76036711,254.456303 Z"
+                      id="Path-Copy-6"
+                    ></path>
+                  </g>
+                </g>
+              </g>
+            </svg>
+            <div>All Templates</div>
+          </div>
+          <div class="features">
+            <svg
+              width="10px"
+              height="7px"
+              viewBox="0 0 10 7"
+              version="1.1"
+              xmlns="http://www.w3.org/2000/svg"
+              xmlns:xlink="http://www.w3.org/1999/xlink"
+            >
+              <!-- Generator: Sketch 62 (91390) - https://sketch.com -->
+              <title>Path Copy 6</title>
+              <desc>Created with Sketch.</desc>
+              <g
+                id="Page-1"
+                stroke="none"
+                stroke-width="1"
+                fill="none"
+                fill-rule="evenodd"
+              >
+                <g
+                  id="v1_A"
+                  transform="translate(-330.000000, -883.000000)"
+                  fill="#01B289"
+                  fill-rule="nonzero"
+                >
+                  <g id="Group-9" transform="translate(330.000000, 630.000000)">
+                    <path
+                      d="M9.76036711,254.456303 L4.484493,259.761794 C4.33375374,259.91338 4.11841194,260 3.88153596,260 C3.64465998,260 3.45085235,259.91338 3.27857891,259.761794 L0.242259526,256.70843 C-0.0807531752,256.383604 -0.0807531752,255.842227 0.242259526,255.517401 C0.565272227,255.192575 1.10362673,255.192575 1.42663943,255.517401 L3.86000178,257.964424 L8.55445303,253.243619 C8.87746573,252.918794 9.41582023,252.918794 9.73883293,253.243619 C10.0833798,253.590101 10.0833798,254.109822 9.76036711,254.456303 Z"
+                      id="Path-Copy-6"
+                    ></path>
+                  </g>
+                </g>
+              </g>
+            </svg>
+            <div>Unlimited Clients & Projects</div>
+          </div>
+          <div class="features">
+            <svg
+              width="10px"
+              height="7px"
+              viewBox="0 0 10 7"
+              version="1.1"
+              xmlns="http://www.w3.org/2000/svg"
+              xmlns:xlink="http://www.w3.org/1999/xlink"
+            >
+              <!-- Generator: Sketch 62 (91390) - https://sketch.com -->
+              <title>Path Copy 6</title>
+              <desc>Created with Sketch.</desc>
+              <g
+                id="Page-1"
+                stroke="none"
+                stroke-width="1"
+                fill="none"
+                fill-rule="evenodd"
+              >
+                <g
+                  id="v1_A"
+                  transform="translate(-330.000000, -883.000000)"
+                  fill="#01B289"
+                  fill-rule="nonzero"
+                >
+                  <g id="Group-9" transform="translate(330.000000, 630.000000)">
+                    <path
+                      d="M9.76036711,254.456303 L4.484493,259.761794 C4.33375374,259.91338 4.11841194,260 3.88153596,260 C3.64465998,260 3.45085235,259.91338 3.27857891,259.761794 L0.242259526,256.70843 C-0.0807531752,256.383604 -0.0807531752,255.842227 0.242259526,255.517401 C0.565272227,255.192575 1.10362673,255.192575 1.42663943,255.517401 L3.86000178,257.964424 L8.55445303,253.243619 C8.87746573,252.918794 9.41582023,252.918794 9.73883293,253.243619 C10.0833798,253.590101 10.0833798,254.109822 9.76036711,254.456303 Z"
+                      id="Path-Copy-6"
+                    ></path>
+                  </g>
+                </g>
+              </g>
+            </svg>
+            <div>Invoicing & Payments</div>
+          </div>
+          <div class="features">
+            <svg
+              width="10px"
+              height="7px"
+              viewBox="0 0 10 7"
+              version="1.1"
+              xmlns="http://www.w3.org/2000/svg"
+              xmlns:xlink="http://www.w3.org/1999/xlink"
+            >
+              <!-- Generator: Sketch 62 (91390) - https://sketch.com -->
+              <title>Path Copy 6</title>
+              <desc>Created with Sketch.</desc>
+              <g
+                id="Page-1"
+                stroke="none"
+                stroke-width="1"
+                fill="none"
+                fill-rule="evenodd"
+              >
+                <g
+                  id="v1_A"
+                  transform="translate(-330.000000, -883.000000)"
+                  fill="#01B289"
+                  fill-rule="nonzero"
+                >
+                  <g id="Group-9" transform="translate(330.000000, 630.000000)">
+                    <path
+                      d="M9.76036711,254.456303 L4.484493,259.761794 C4.33375374,259.91338 4.11841194,260 3.88153596,260 C3.64465998,260 3.45085235,259.91338 3.27857891,259.761794 L0.242259526,256.70843 C-0.0807531752,256.383604 -0.0807531752,255.842227 0.242259526,255.517401 C0.565272227,255.192575 1.10362673,255.192575 1.42663943,255.517401 L3.86000178,257.964424 L8.55445303,253.243619 C8.87746573,252.918794 9.41582023,252.918794 9.73883293,253.243619 C10.0833798,253.590101 10.0833798,254.109822 9.76036711,254.456303 Z"
+                      id="Path-Copy-6"
+                    ></path>
+                  </g>
+                </g>
+              </g>
+            </svg>
+            <div>Proposals & Contracts</div>
+          </div>
+          <div class="features">
+            <svg
+              width="10px"
+              height="7px"
+              viewBox="0 0 10 7"
+              version="1.1"
+              xmlns="http://www.w3.org/2000/svg"
+              xmlns:xlink="http://www.w3.org/1999/xlink"
+            >
+              <!-- Generator: Sketch 62 (91390) - https://sketch.com -->
+              <title>Path Copy 6</title>
+              <desc>Created with Sketch.</desc>
+              <g
+                id="Page-1"
+                stroke="none"
+                stroke-width="1"
+                fill="none"
+                fill-rule="evenodd"
+              >
+                <g
+                  id="v1_A"
+                  transform="translate(-330.000000, -883.000000)"
+                  fill="#01B289"
+                  fill-rule="nonzero"
+                >
+                  <g id="Group-9" transform="translate(330.000000, 630.000000)">
+                    <path
+                      d="M9.76036711,254.456303 L4.484493,259.761794 C4.33375374,259.91338 4.11841194,260 3.88153596,260 C3.64465998,260 3.45085235,259.91338 3.27857891,259.761794 L0.242259526,256.70843 C-0.0807531752,256.383604 -0.0807531752,255.842227 0.242259526,255.517401 C0.565272227,255.192575 1.10362673,255.192575 1.42663943,255.517401 L3.86000178,257.964424 L8.55445303,253.243619 C8.87746573,252.918794 9.41582023,252.918794 9.73883293,253.243619 C10.0833798,253.590101 10.0833798,254.109822 9.76036711,254.456303 Z"
+                      id="Path-Copy-6"
+                    ></path>
+                  </g>
+                </g>
+              </g>
+            </svg>
+            <div>Tasks & Time Tracking</div>
+          </div>
+          <div class="features">
+            <svg
+              width="10px"
+              height="7px"
+              viewBox="0 0 10 7"
+              version="1.1"
+              xmlns="http://www.w3.org/2000/svg"
+              xmlns:xlink="http://www.w3.org/1999/xlink"
+            >
+              <!-- Generator: Sketch 62 (91390) - https://sketch.com -->
+              <title>Path Copy 6</title>
+              <desc>Created with Sketch.</desc>
+              <g
+                id="Page-1"
+                stroke="none"
+                stroke-width="1"
+                fill="none"
+                fill-rule="evenodd"
+              >
+                <g
+                  id="v1_A"
+                  transform="translate(-330.000000, -883.000000)"
+                  fill="#01B289"
+                  fill-rule="nonzero"
+                >
+                  <g id="Group-9" transform="translate(330.000000, 630.000000)">
+                    <path
+                      d="M9.76036711,254.456303 L4.484493,259.761794 C4.33375374,259.91338 4.11841194,260 3.88153596,260 C3.64465998,260 3.45085235,259.91338 3.27857891,259.761794 L0.242259526,256.70843 C-0.0807531752,256.383604 -0.0807531752,255.842227 0.242259526,255.517401 C0.565272227,255.192575 1.10362673,255.192575 1.42663943,255.517401 L3.86000178,257.964424 L8.55445303,253.243619 C8.87746573,252.918794 9.41582023,252.918794 9.73883293,253.243619 C10.0833798,253.590101 10.0833798,254.109822 9.76036711,254.456303 Z"
+                      id="Path-Copy-6"
+                    ></path>
+                  </g>
+                </g>
+              </g>
+            </svg>
+            <div>Client CRM</div>
+          </div>
+          <div class="features">
+            <svg
+              width="10px"
+              height="7px"
+              viewBox="0 0 10 7"
+              version="1.1"
+              xmlns="http://www.w3.org/2000/svg"
+              xmlns:xlink="http://www.w3.org/1999/xlink"
+            >
+              <!-- Generator: Sketch 62 (91390) - https://sketch.com -->
+              <title>Path Copy 6</title>
+              <desc>Created with Sketch.</desc>
+              <g
+                id="Page-1"
+                stroke="none"
+                stroke-width="1"
+                fill="none"
+                fill-rule="evenodd"
+              >
+                <g
+                  id="v1_A"
+                  transform="translate(-330.000000, -883.000000)"
+                  fill="#01B289"
+                  fill-rule="nonzero"
+                >
+                  <g id="Group-9" transform="translate(330.000000, 630.000000)">
+                    <path
+                      d="M9.76036711,254.456303 L4.484493,259.761794 C4.33375374,259.91338 4.11841194,260 3.88153596,260 C3.64465998,260 3.45085235,259.91338 3.27857891,259.761794 L0.242259526,256.70843 C-0.0807531752,256.383604 -0.0807531752,255.842227 0.242259526,255.517401 C0.565272227,255.192575 1.10362673,255.192575 1.42663943,255.517401 L3.86000178,257.964424 L8.55445303,253.243619 C8.87746573,252.918794 9.41582023,252.918794 9.73883293,253.243619 C10.0833798,253.590101 10.0833798,254.109822 9.76036711,254.456303 Z"
+                      id="Path-Copy-6"
+                    ></path>
+                  </g>
+                </g>
+              </g>
+            </svg>
+            <div>Expense Tracking</div>
+          </div>
+          <div class="features">
+            <svg
+              width="10px"
+              height="7px"
+              viewBox="0 0 10 7"
+              version="1.1"
+              xmlns="http://www.w3.org/2000/svg"
+              xmlns:xlink="http://www.w3.org/1999/xlink"
+            >
+              <!-- Generator: Sketch 62 (91390) - https://sketch.com -->
+              <title>Path Copy 6</title>
+              <desc>Created with Sketch.</desc>
+              <g
+                id="Page-1"
+                stroke="none"
+                stroke-width="1"
+                fill="none"
+                fill-rule="evenodd"
+              >
+                <g
+                  id="v1_A"
+                  transform="translate(-330.000000, -883.000000)"
+                  fill="#01B289"
+                  fill-rule="nonzero"
+                >
+                  <g id="Group-9" transform="translate(330.000000, 630.000000)">
+                    <path
+                      d="M9.76036711,254.456303 L4.484493,259.761794 C4.33375374,259.91338 4.11841194,260 3.88153596,260 C3.64465998,260 3.45085235,259.91338 3.27857891,259.761794 L0.242259526,256.70843 C-0.0807531752,256.383604 -0.0807531752,255.842227 0.242259526,255.517401 C0.565272227,255.192575 1.10362673,255.192575 1.42663943,255.517401 L3.86000178,257.964424 L8.55445303,253.243619 C8.87746573,252.918794 9.41582023,252.918794 9.73883293,253.243619 C10.0833798,253.590101 10.0833798,254.109822 9.76036711,254.456303 Z"
+                      id="Path-Copy-6"
+                    ></path>
+                  </g>
+                </g>
+              </g>
+            </svg>
+            <div>Up to 5 Project Collaborators</div>
+          </div>
+        </div>
+
+        <div class="card-start">
+          <a class="st" href="#">START FREE</a>
+        </div>
+      </div>
+
+      <div class="cards">
+        <div class="card-title">Professional</div>
+        <div class="description">
+          Everything a growing independent business needs to thrive.
+        </div>
+        <div class="price-box">
+          <span class="currency-symbol">$</span>
+          39
+          <span class="duration">/MONTH</span>
+        </div>
+        <hr />
+
+        <div class="plan-features">
+          <div class="features">
+            <svg
+              width="10px"
+              height="7px"
+              viewBox="0 0 10 7"
+              version="1.1"
+              xmlns="http://www.w3.org/2000/svg"
+              xmlns:xlink="http://www.w3.org/1999/xlink"
+            >
+              <!-- Generator: Sketch 62 (91390) - https://sketch.com -->
+              <title>Path Copy 6</title>
+              <desc>Created with Sketch.</desc>
+              <g
+                id="Page-1"
+                stroke="none"
+                stroke-width="1"
+                fill="none"
+                fill-rule="evenodd"
+              >
+                <g
+                  id="v1_A"
+                  transform="translate(-330.000000, -883.000000)"
+                  fill="#01B289"
+                  fill-rule="nonzero"
+                >
+                  <g id="Group-9" transform="translate(330.000000, 630.000000)">
+                    <path
+                      d="M9.76036711,254.456303 L4.484493,259.761794 C4.33375374,259.91338 4.11841194,260 3.88153596,260 C3.64465998,260 3.45085235,259.91338 3.27857891,259.761794 L0.242259526,256.70843 C-0.0807531752,256.383604 -0.0807531752,255.842227 0.242259526,255.517401 C0.565272227,255.192575 1.10362673,255.192575 1.42663943,255.517401 L3.86000178,257.964424 L8.55445303,253.243619 C8.87746573,252.918794 9.41582023,252.918794 9.73883293,253.243619 C10.0833798,253.590101 10.0833798,254.109822 9.76036711,254.456303 Z"
+                      id="Path-Copy-6"
+                    ></path>
+                  </g>
+                </g>
+              </g>
+            </svg>
+            <div>Everything in Starter plus..</div>
+          </div>
+          <div class="features">
+            <svg
+              width="10px"
+              height="7px"
+              viewBox="0 0 10 7"
+              version="1.1"
+              xmlns="http://www.w3.org/2000/svg"
+              xmlns:xlink="http://www.w3.org/1999/xlink"
+            >
+              <!-- Generator: Sketch 62 (91390) - https://sketch.com -->
+              <title>Path Copy 6</title>
+              <desc>Created with Sketch.</desc>
+              <g
+                id="Page-1"
+                stroke="none"
+                stroke-width="1"
+                fill="none"
+                fill-rule="evenodd"
+              >
+                <g
+                  id="v1_A"
+                  transform="translate(-330.000000, -883.000000)"
+                  fill="#01B289"
+                  fill-rule="nonzero"
+                >
+                  <g id="Group-9" transform="translate(330.000000, 630.000000)">
+                    <path
+                      d="M9.76036711,254.456303 L4.484493,259.761794 C4.33375374,259.91338 4.11841194,260 3.88153596,260 C3.64465998,260 3.45085235,259.91338 3.27857891,259.761794 L0.242259526,256.70843 C-0.0807531752,256.383604 -0.0807531752,255.842227 0.242259526,255.517401 C0.565272227,255.192575 1.10362673,255.192575 1.42663943,255.517401 L3.86000178,257.964424 L8.55445303,253.243619 C8.87746573,252.918794 9.41582023,252.918794 9.73883293,253.243619 C10.0833798,253.590101 10.0833798,254.109822 9.76036711,254.456303 Z"
+                      id="Path-Copy-6"
+                    ></path>
+                  </g>
+                </g>
+              </g>
+            </svg>
+            <div>Custom Branding</div>
+          </div>
+          <div class="features">
+            <svg
+              width="10px"
+              height="7px"
+              viewBox="0 0 10 7"
+              version="1.1"
+              xmlns="http://www.w3.org/2000/svg"
+              xmlns:xlink="http://www.w3.org/1999/xlink"
+            >
+              <!-- Generator: Sketch 62 (91390) - https://sketch.com -->
+              <title>Path Copy 6</title>
+              <desc>Created with Sketch.</desc>
+              <g
+                id="Page-1"
+                stroke="none"
+                stroke-width="1"
+                fill="none"
+                fill-rule="evenodd"
+              >
+                <g
+                  id="v1_A"
+                  transform="translate(-330.000000, -883.000000)"
+                  fill="#01B289"
+                  fill-rule="nonzero"
+                >
+                  <g id="Group-9" transform="translate(330.000000, 630.000000)">
+                    <path
+                      d="M9.76036711,254.456303 L4.484493,259.761794 C4.33375374,259.91338 4.11841194,260 3.88153596,260 C3.64465998,260 3.45085235,259.91338 3.27857891,259.761794 L0.242259526,256.70843 C-0.0807531752,256.383604 -0.0807531752,255.842227 0.242259526,255.517401 C0.565272227,255.192575 1.10362673,255.192575 1.42663943,255.517401 L3.86000178,257.964424 L8.55445303,253.243619 C8.87746573,252.918794 9.41582023,252.918794 9.73883293,253.243619 C10.0833798,253.590101 10.0833798,254.109822 9.76036711,254.456303 Z"
+                      id="Path-Copy-6"
+                    ></path>
+                  </g>
+                </g>
+              </g>
+            </svg>
+            <div>Forms & Questionnaires</div>
+          </div>
+          <div class="features">
+            <svg
+              width="10px"
+              height="7px"
+              viewBox="0 0 10 7"
+              version="1.1"
+              xmlns="http://www.w3.org/2000/svg"
+              xmlns:xlink="http://www.w3.org/1999/xlink"
+            >
+              <!-- Generator: Sketch 62 (91390) - https://sketch.com -->
+              <title>Path Copy 6</title>
+              <desc>Created with Sketch.</desc>
+              <g
+                id="Page-1"
+                stroke="none"
+                stroke-width="1"
+                fill="none"
+                fill-rule="evenodd"
+              >
+                <g
+                  id="v1_A"
+                  transform="translate(-330.000000, -883.000000)"
+                  fill="#01B289"
+                  fill-rule="nonzero"
+                >
+                  <g id="Group-9" transform="translate(330.000000, 630.000000)">
+                    <path
+                      d="M9.76036711,254.456303 L4.484493,259.761794 C4.33375374,259.91338 4.11841194,260 3.88153596,260 C3.64465998,260 3.45085235,259.91338 3.27857891,259.761794 L0.242259526,256.70843 C-0.0807531752,256.383604 -0.0807531752,255.842227 0.242259526,255.517401 C0.565272227,255.192575 1.10362673,255.192575 1.42663943,255.517401 L3.86000178,257.964424 L8.55445303,253.243619 C8.87746573,252.918794 9.41582023,252.918794 9.73883293,253.243619 C10.0833798,253.590101 10.0833798,254.109822 9.76036711,254.456303 Z"
+                      id="Path-Copy-6"
+                    ></path>
+                  </g>
+                </g>
+              </g>
+            </svg>
+            <div>Workflow Automations</div>
+          </div>
+          <div class="features">
+            <svg
+              width="10px"
+              height="7px"
+              viewBox="0 0 10 7"
+              version="1.1"
+              xmlns="http://www.w3.org/2000/svg"
+              xmlns:xlink="http://www.w3.org/1999/xlink"
+            >
+              <!-- Generator: Sketch 62 (91390) - https://sketch.com -->
+              <title>Path Copy 6</title>
+              <desc>Created with Sketch.</desc>
+              <g
+                id="Page-1"
+                stroke="none"
+                stroke-width="1"
+                fill="none"
+                fill-rule="evenodd"
+              >
+                <g
+                  id="v1_A"
+                  transform="translate(-330.000000, -883.000000)"
+                  fill="#01B289"
+                  fill-rule="nonzero"
+                >
+                  <g id="Group-9" transform="translate(330.000000, 630.000000)">
+                    <path
+                      d="M9.76036711,254.456303 L4.484493,259.761794 C4.33375374,259.91338 4.11841194,260 3.88153596,260 C3.64465998,260 3.45085235,259.91338 3.27857891,259.761794 L0.242259526,256.70843 C-0.0807531752,256.383604 -0.0807531752,255.842227 0.242259526,255.517401 C0.565272227,255.192575 1.10362673,255.192575 1.42663943,255.517401 L3.86000178,257.964424 L8.55445303,253.243619 C8.87746573,252.918794 9.41582023,252.918794 9.73883293,253.243619 C10.0833798,253.590101 10.0833798,254.109822 9.76036711,254.456303 Z"
+                      id="Path-Copy-6"
+                    ></path>
+                  </g>
+                </g>
+              </g>
+            </svg>
+            <div>Client Portal</div>
+          </div>
+          <div class="features">
+            <svg
+              width="10px"
+              height="7px"
+              viewBox="0 0 10 7"
+              version="1.1"
+              xmlns="http://www.w3.org/2000/svg"
+              xmlns:xlink="http://www.w3.org/1999/xlink"
+            >
+              <!-- Generator: Sketch 62 (91390) - https://sketch.com -->
+              <title>Path Copy 6</title>
+              <desc>Created with Sketch.</desc>
+              <g
+                id="Page-1"
+                stroke="none"
+                stroke-width="1"
+                fill="none"
+                fill-rule="evenodd"
+              >
+                <g
+                  id="v1_A"
+                  transform="translate(-330.000000, -883.000000)"
+                  fill="#01B289"
+                  fill-rule="nonzero"
+                >
+                  <g id="Group-9" transform="translate(330.000000, 630.000000)">
+                    <path
+                      d="M9.76036711,254.456303 L4.484493,259.761794 C4.33375374,259.91338 4.11841194,260 3.88153596,260 C3.64465998,260 3.45085235,259.91338 3.27857891,259.761794 L0.242259526,256.70843 C-0.0807531752,256.383604 -0.0807531752,255.842227 0.242259526,255.517401 C0.565272227,255.192575 1.10362673,255.192575 1.42663943,255.517401 L3.86000178,257.964424 L8.55445303,253.243619 C8.87746573,252.918794 9.41582023,252.918794 9.73883293,253.243619 C10.0833798,253.590101 10.0833798,254.109822 9.76036711,254.456303 Z"
+                      id="Path-Copy-6"
+                    ></path>
+                  </g>
+                </g>
+              </g>
+            </svg>
+            <div>QuickBooks Integration</div>
+          </div>
+          <div class="features">
+            <svg
+              width="10px"
+              height="7px"
+              viewBox="0 0 10 7"
+              version="1.1"
+              xmlns="http://www.w3.org/2000/svg"
+              xmlns:xlink="http://www.w3.org/1999/xlink"
+            >
+              <!-- Generator: Sketch 62 (91390) - https://sketch.com -->
+              <title>Path Copy 6</title>
+              <desc>Created with Sketch.</desc>
+              <g
+                id="Page-1"
+                stroke="none"
+                stroke-width="1"
+                fill="none"
+                fill-rule="evenodd"
+              >
+                <g
+                  id="v1_A"
+                  transform="translate(-330.000000, -883.000000)"
+                  fill="#01B289"
+                  fill-rule="nonzero"
+                >
+                  <g id="Group-9" transform="translate(330.000000, 630.000000)">
+                    <path
+                      d="M9.76036711,254.456303 L4.484493,259.761794 C4.33375374,259.91338 4.11841194,260 3.88153596,260 C3.64465998,260 3.45085235,259.91338 3.27857891,259.761794 L0.242259526,256.70843 C-0.0807531752,256.383604 -0.0807531752,255.842227 0.242259526,255.517401 C0.565272227,255.192575 1.10362673,255.192575 1.42663943,255.517401 L3.86000178,257.964424 L8.55445303,253.243619 C8.87746573,252.918794 9.41582023,252.918794 9.73883293,253.243619 C10.0833798,253.590101 10.0833798,254.109822 9.76036711,254.456303 Z"
+                      id="Path-Copy-6"
+                    ></path>
+                  </g>
+                </g>
+              </g>
+            </svg>
+            <div>Calendly Integration</div>
+          </div>
+          <div class="features">
+            <svg
+              width="10px"
+              height="7px"
+              viewBox="0 0 10 7"
+              version="1.1"
+              xmlns="http://www.w3.org/2000/svg"
+              xmlns:xlink="http://www.w3.org/1999/xlink"
+            >
+              <!-- Generator: Sketch 62 (91390) - https://sketch.com -->
+              <title>Path Copy 6</title>
+              <desc>Created with Sketch.</desc>
+              <g
+                id="Page-1"
+                stroke="none"
+                stroke-width="1"
+                fill="none"
+                fill-rule="evenodd"
+              >
+                <g
+                  id="v1_A"
+                  transform="translate(-330.000000, -883.000000)"
+                  fill="#01B289"
+                  fill-rule="nonzero"
+                >
+                  <g id="Group-9" transform="translate(330.000000, 630.000000)">
+                    <path
+                      d="M9.76036711,254.456303 L4.484493,259.761794 C4.33375374,259.91338 4.11841194,260 3.88153596,260 C3.64465998,260 3.45085235,259.91338 3.27857891,259.761794 L0.242259526,256.70843 C-0.0807531752,256.383604 -0.0807531752,255.842227 0.242259526,255.517401 C0.565272227,255.192575 1.10362673,255.192575 1.42663943,255.517401 L3.86000178,257.964424 L8.55445303,253.243619 C8.87746573,252.918794 9.41582023,252.918794 9.73883293,253.243619 C10.0833798,253.590101 10.0833798,254.109822 9.76036711,254.456303 Z"
+                      id="Path-Copy-6"
+                    ></path>
+                  </g>
+                </g>
+              </g>
+            </svg>
+            <div>Zapier Integrations</div>
+          </div>
+
+          <div class="features">
+            <svg
+              width="10px"
+              height="7px"
+              viewBox="0 0 10 7"
+              version="1.1"
+              xmlns="http://www.w3.org/2000/svg"
+              xmlns:xlink="http://www.w3.org/1999/xlink"
+            >
+              <!-- Generator: Sketch 62 (91390) - https://sketch.com -->
+              <title>Path Copy 6</title>
+              <desc>Created with Sketch.</desc>
+              <g
+                id="Page-1"
+                stroke="none"
+                stroke-width="1"
+                fill="none"
+                fill-rule="evenodd"
+              >
+                <g
+                  id="v1_A"
+                  transform="translate(-330.000000, -883.000000)"
+                  fill="#01B289"
+                  fill-rule="nonzero"
+                >
+                  <g id="Group-9" transform="translate(330.000000, 630.000000)">
+                    <path
+                      d="M9.76036711,254.456303 L4.484493,259.761794 C4.33375374,259.91338 4.11841194,260 3.88153596,260 C3.64465998,260 3.45085235,259.91338 3.27857891,259.761794 L0.242259526,256.70843 C-0.0807531752,256.383604 -0.0807531752,255.842227 0.242259526,255.517401 C0.565272227,255.192575 1.10362673,255.192575 1.42663943,255.517401 L3.86000178,257.964424 L8.55445303,253.243619 C8.87746573,252.918794 9.41582023,252.918794 9.73883293,253.243619 C10.0833798,253.590101 10.0833798,254.109822 9.76036711,254.456303 Z"
+                      id="Path-Copy-6"
+                    ></path>
+                  </g>
+                </g>
+              </g>
+            </svg>
+            <div>Up to 15 Project Collaborators</div>
+          </div>
+        </div>
+
+        <div class="card-start">
+          <a class="st" href="#">START FREE</a>
+        </div>
+      </div>
+
+      <div class="cards">
+        <div class="card-title">Business</div>
+        <div class="description">
+          The perfect package for small businesses and agencies
+        </div>
+        <div class="price-box">
+          <span class="currency-symbol">$</span>
+          79
+          <span class="duration">/MONTH</span>
+        </div>
+        <hr />
+
+        <div class="plan-features">
+          <div class="features">
+            <svg
+              width="10px"
+              height="7px"
+              viewBox="0 0 10 7"
+              version="1.1"
+              xmlns="http://www.w3.org/2000/svg"
+              xmlns:xlink="http://www.w3.org/1999/xlink"
+            >
+              <!-- Generator: Sketch 62 (91390) - https://sketch.com -->
+              <title>Path Copy 6</title>
+              <desc>Created with Sketch.</desc>
+              <g
+                id="Page-1"
+                stroke="none"
+                stroke-width="1"
+                fill="none"
+                fill-rule="evenodd"
+              >
+                <g
+                  id="v1_A"
+                  transform="translate(-330.000000, -883.000000)"
+                  fill="#01B289"
+                  fill-rule="nonzero"
+                >
+                  <g id="Group-9" transform="translate(330.000000, 630.000000)">
+                    <path
+                      d="M9.76036711,254.456303 L4.484493,259.761794 C4.33375374,259.91338 4.11841194,260 3.88153596,260 C3.64465998,260 3.45085235,259.91338 3.27857891,259.761794 L0.242259526,256.70843 C-0.0807531752,256.383604 -0.0807531752,255.842227 0.242259526,255.517401 C0.565272227,255.192575 1.10362673,255.192575 1.42663943,255.517401 L3.86000178,257.964424 L8.55445303,253.243619 C8.87746573,252.918794 9.41582023,252.918794 9.73883293,253.243619 C10.0833798,253.590101 10.0833798,254.109822 9.76036711,254.456303 Z"
+                      id="Path-Copy-6"
+                    ></path>
+                  </g>
+                </g>
+              </g>
+            </svg>
+            <div>Everything in Starter and Professional plus...</div>
+          </div>
+          <div class="features">
+            <svg
+              width="10px"
+              height="7px"
+              viewBox="0 0 10 7"
+              version="1.1"
+              xmlns="http://www.w3.org/2000/svg"
+              xmlns:xlink="http://www.w3.org/1999/xlink"
+            >
+              <!-- Generator: Sketch 62 (91390) - https://sketch.com -->
+              <title>Path Copy 6</title>
+              <desc>Created with Sketch.</desc>
+              <g
+                id="Page-1"
+                stroke="none"
+                stroke-width="1"
+                fill="none"
+                fill-rule="evenodd"
+              >
+                <g
+                  id="v1_A"
+                  transform="translate(-330.000000, -883.000000)"
+                  fill="#01B289"
+                  fill-rule="nonzero"
+                >
+                  <g id="Group-9" transform="translate(330.000000, 630.000000)">
+                    <path
+                      d="M9.76036711,254.456303 L4.484493,259.761794 C4.33375374,259.91338 4.11841194,260 3.88153596,260 C3.64465998,260 3.45085235,259.91338 3.27857891,259.761794 L0.242259526,256.70843 C-0.0807531752,256.383604 -0.0807531752,255.842227 0.242259526,255.517401 C0.565272227,255.192575 1.10362673,255.192575 1.42663943,255.517401 L3.86000178,257.964424 L8.55445303,253.243619 C8.87746573,252.918794 9.41582023,252.918794 9.73883293,253.243619 C10.0833798,253.590101 10.0833798,254.109822 9.76036711,254.456303 Z"
+                      id="Path-Copy-6"
+                    ></path>
+                  </g>
+                </g>
+              </g>
+            </svg>
+            <div>Subcontractor Management</div>
+          </div>
+          <div class="features">
+            <svg
+              width="10px"
+              height="7px"
+              viewBox="0 0 10 7"
+              version="1.1"
+              xmlns="http://www.w3.org/2000/svg"
+              xmlns:xlink="http://www.w3.org/1999/xlink"
+            >
+              <!-- Generator: Sketch 62 (91390) - https://sketch.com -->
+              <title>Path Copy 6</title>
+              <desc>Created with Sketch.</desc>
+              <g
+                id="Page-1"
+                stroke="none"
+                stroke-width="1"
+                fill="none"
+                fill-rule="evenodd"
+              >
+                <g
+                  id="v1_A"
+                  transform="translate(-330.000000, -883.000000)"
+                  fill="#01B289"
+                  fill-rule="nonzero"
+                >
+                  <g id="Group-9" transform="translate(330.000000, 630.000000)">
+                    <path
+                      d="M9.76036711,254.456303 L4.484493,259.761794 C4.33375374,259.91338 4.11841194,260 3.88153596,260 C3.64465998,260 3.45085235,259.91338 3.27857891,259.761794 L0.242259526,256.70843 C-0.0807531752,256.383604 -0.0807531752,255.842227 0.242259526,255.517401 C0.565272227,255.192575 1.10362673,255.192575 1.42663943,255.517401 L3.86000178,257.964424 L8.55445303,253.243619 C8.87746573,252.918794 9.41582023,252.918794 9.73883293,253.243619 C10.0833798,253.590101 10.0833798,254.109822 9.76036711,254.456303 Z"
+                      id="Path-Copy-6"
+                    ></path>
+                  </g>
+                </g>
+              </g>
+            </svg>
+            <div>Hiring Agreement Templates (1099 contracts)</div>
+          </div>
+          <div class="features">
+            <svg
+              width="10px"
+              height="7px"
+              viewBox="0 0 10 7"
+              version="1.1"
+              xmlns="http://www.w3.org/2000/svg"
+              xmlns:xlink="http://www.w3.org/1999/xlink"
+            >
+              <!-- Generator: Sketch 62 (91390) - https://sketch.com -->
+              <title>Path Copy 6</title>
+              <desc>Created with Sketch.</desc>
+              <g
+                id="Page-1"
+                stroke="none"
+                stroke-width="1"
+                fill="none"
+                fill-rule="evenodd"
+              >
+                <g
+                  id="v1_A"
+                  transform="translate(-330.000000, -883.000000)"
+                  fill="#01B289"
+                  fill-rule="nonzero"
+                >
+                  <g id="Group-9" transform="translate(330.000000, 630.000000)">
+                    <path
+                      d="M9.76036711,254.456303 L4.484493,259.761794 C4.33375374,259.91338 4.11841194,260 3.88153596,260 C3.64465998,260 3.45085235,259.91338 3.27857891,259.761794 L0.242259526,256.70843 C-0.0807531752,256.383604 -0.0807531752,255.842227 0.242259526,255.517401 C0.565272227,255.192575 1.10362673,255.192575 1.42663943,255.517401 L3.86000178,257.964424 L8.55445303,253.243619 C8.87746573,252.918794 9.41582023,252.918794 9.73883293,253.243619 C10.0833798,253.590101 10.0833798,254.109822 9.76036711,254.456303 Z"
+                      id="Path-Copy-6"
+                    ></path>
+                  </g>
+                </g>
+              </g>
+            </svg>
+            <div>Subcontractor Onboarding</div>
+          </div>
+          <div class="features">
+            <svg
+              width="10px"
+              height="7px"
+              viewBox="0 0 10 7"
+              version="1.1"
+              xmlns="http://www.w3.org/2000/svg"
+              xmlns:xlink="http://www.w3.org/1999/xlink"
+            >
+              <!-- Generator: Sketch 62 (91390) - https://sketch.com -->
+              <title>Path Copy 6</title>
+              <desc>Created with Sketch.</desc>
+              <g
+                id="Page-1"
+                stroke="none"
+                stroke-width="1"
+                fill="none"
+                fill-rule="evenodd"
+              >
+                <g
+                  id="v1_A"
+                  transform="translate(-330.000000, -883.000000)"
+                  fill="#01B289"
+                  fill-rule="nonzero"
+                >
+                  <g id="Group-9" transform="translate(330.000000, 630.000000)">
+                    <path
+                      d="M9.76036711,254.456303 L4.484493,259.761794 C4.33375374,259.91338 4.11841194,260 3.88153596,260 C3.64465998,260 3.45085235,259.91338 3.27857891,259.761794 L0.242259526,256.70843 C-0.0807531752,256.383604 -0.0807531752,255.842227 0.242259526,255.517401 C0.565272227,255.192575 1.10362673,255.192575 1.42663943,255.517401 L3.86000178,257.964424 L8.55445303,253.243619 C8.87746573,252.918794 9.41582023,252.918794 9.73883293,253.243619 C10.0833798,253.590101 10.0833798,254.109822 9.76036711,254.456303 Z"
+                      id="Path-Copy-6"
+                    ></path>
+                  </g>
+                </g>
+              </g>
+            </svg>
+            <div>3 Team Seats (additional seats $9/month)</div>
+          </div>
+          <div class="features">
+            <svg
+              width="10px"
+              height="7px"
+              viewBox="0 0 10 7"
+              version="1.1"
+              xmlns="http://www.w3.org/2000/svg"
+              xmlns:xlink="http://www.w3.org/1999/xlink"
+            >
+              <!-- Generator: Sketch 62 (91390) - https://sketch.com -->
+              <title>Path Copy 6</title>
+              <desc>Created with Sketch.</desc>
+              <g
+                id="Page-1"
+                stroke="none"
+                stroke-width="1"
+                fill="none"
+                fill-rule="evenodd"
+              >
+                <g
+                  id="v1_A"
+                  transform="translate(-330.000000, -883.000000)"
+                  fill="#01B289"
+                  fill-rule="nonzero"
+                >
+                  <g id="Group-9" transform="translate(330.000000, 630.000000)">
+                    <path
+                      d="M9.76036711,254.456303 L4.484493,259.761794 C4.33375374,259.91338 4.11841194,260 3.88153596,260 C3.64465998,260 3.45085235,259.91338 3.27857891,259.761794 L0.242259526,256.70843 C-0.0807531752,256.383604 -0.0807531752,255.842227 0.242259526,255.517401 C0.565272227,255.192575 1.10362673,255.192575 1.42663943,255.517401 L3.86000178,257.964424 L8.55445303,253.243619 C8.87746573,252.918794 9.41582023,252.918794 9.73883293,253.243619 C10.0833798,253.590101 10.0833798,254.109822 9.76036711,254.456303 Z"
+                      id="Path-Copy-6"
+                    ></path>
+                  </g>
+                </g>
+              </g>
+            </svg>
+            <div>Accountant Access</div>
+          </div>
+          <div class="features">
+            <svg
+              width="10px"
+              height="7px"
+              viewBox="0 0 10 7"
+              version="1.1"
+              xmlns="http://www.w3.org/2000/svg"
+              xmlns:xlink="http://www.w3.org/1999/xlink"
+            >
+              <!-- Generator: Sketch 62 (91390) - https://sketch.com -->
+              <title>Path Copy 6</title>
+              <desc>Created with Sketch.</desc>
+              <g
+                id="Page-1"
+                stroke="none"
+                stroke-width="1"
+                fill="none"
+                fill-rule="evenodd"
+              >
+                <g
+                  id="v1_A"
+                  transform="translate(-330.000000, -883.000000)"
+                  fill="#01B289"
+                  fill-rule="nonzero"
+                >
+                  <g id="Group-9" transform="translate(330.000000, 630.000000)">
+                    <path
+                      d="M9.76036711,254.456303 L4.484493,259.761794 C4.33375374,259.91338 4.11841194,260 3.88153596,260 C3.64465998,260 3.45085235,259.91338 3.27857891,259.761794 L0.242259526,256.70843 C-0.0807531752,256.383604 -0.0807531752,255.842227 0.242259526,255.517401 C0.565272227,255.192575 1.10362673,255.192575 1.42663943,255.517401 L3.86000178,257.964424 L8.55445303,253.243619 C8.87746573,252.918794 9.41582023,252.918794 9.73883293,253.243619 C10.0833798,253.590101 10.0833798,254.109822 9.76036711,254.456303 Z"
+                      id="Path-Copy-6"
+                    ></path>
+                  </g>
+                </g>
+              </g>
+            </svg>
+            <div>Connect Multiple Bank Accounts</div>
+          </div>
+          <div class="features">
+            <svg
+              width="10px"
+              height="7px"
+              viewBox="0 0 10 7"
+              version="1.1"
+              xmlns="http://www.w3.org/2000/svg"
+              xmlns:xlink="http://www.w3.org/1999/xlink"
+            >
+              <!-- Generator: Sketch 62 (91390) - https://sketch.com -->
+              <title>Path Copy 6</title>
+              <desc>Created with Sketch.</desc>
+              <g
+                id="Page-1"
+                stroke="none"
+                stroke-width="1"
+                fill="none"
+                fill-rule="evenodd"
+              >
+                <g
+                  id="v1_A"
+                  transform="translate(-330.000000, -883.000000)"
+                  fill="#01B289"
+                  fill-rule="nonzero"
+                >
+                  <g id="Group-9" transform="translate(330.000000, 630.000000)">
+                    <path
+                      d="M9.76036711,254.456303 L4.484493,259.761794 C4.33375374,259.91338 4.11841194,260 3.88153596,260 C3.64465998,260 3.45085235,259.91338 3.27857891,259.761794 L0.242259526,256.70843 C-0.0807531752,256.383604 -0.0807531752,255.842227 0.242259526,255.517401 C0.565272227,255.192575 1.10362673,255.192575 1.42663943,255.517401 L3.86000178,257.964424 L8.55445303,253.243619 C8.87746573,252.918794 9.41582023,252.918794 9.73883293,253.243619 C10.0833798,253.590101 10.0833798,254.109822 9.76036711,254.456303 Z"
+                      id="Path-Copy-6"
+                    ></path>
+                  </g>
+                </g>
+              </g>
+            </svg>
+            <div>Unlimited Subcontractors</div>
+          </div>
+
+          <div class="features">
+            <svg
+              width="10px"
+              height="7px"
+              viewBox="0 0 10 7"
+              version="1.1"
+              xmlns="http://www.w3.org/2000/svg"
+              xmlns:xlink="http://www.w3.org/1999/xlink"
+            >
+              <!-- Generator: Sketch 62 (91390) - https://sketch.com -->
+              <title>Path Copy 6</title>
+              <desc>Created with Sketch.</desc>
+              <g
+                id="Page-1"
+                stroke="none"
+                stroke-width="1"
+                fill="none"
+                fill-rule="evenodd"
+              >
+                <g
+                  id="v1_A"
+                  transform="translate(-330.000000, -883.000000)"
+                  fill="#01B289"
+                  fill-rule="nonzero"
+                >
+                  <g id="Group-9" transform="translate(330.000000, 630.000000)">
+                    <path
+                      d="M9.76036711,254.456303 L4.484493,259.761794 C4.33375374,259.91338 4.11841194,260 3.88153596,260 C3.64465998,260 3.45085235,259.91338 3.27857891,259.761794 L0.242259526,256.70843 C-0.0807531752,256.383604 -0.0807531752,255.842227 0.242259526,255.517401 C0.565272227,255.192575 1.10362673,255.192575 1.42663943,255.517401 L3.86000178,257.964424 L8.55445303,253.243619 C8.87746573,252.918794 9.41582023,252.918794 9.73883293,253.243619 C10.0833798,253.590101 10.0833798,254.109822 9.76036711,254.456303 Z"
+                      id="Path-Copy-6"
+                    ></path>
+                  </g>
+                </g>
+              </g>
+            </svg>
+            <div>Unlimited Project Collaborators</div>
+          </div>
+        </div>
+
+        <div class="card-start">
+          <a class="st" href="#">START FREE</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="super">
+      <h2>Super charge your work with add-ons</h2>
+    </div>
+
+    <div class="lowaa">
+      <!--card star-->
+      <div class="lowa">
+        <div class="st-card">
+          <div class="lhs">
+            <h3>Collaborators</h3>
+            <p>
+              Invite other users to specific projects for limited access and
+              functionality
+            </p>
+          </div>
+          <div class="rhs">Free</div>
+        </div>
+      </div>
+      <!--card stop-->
+
+      <!--card star-->
+      <div class="lowa">
+        <div class="st-card">
+          <div class="lhs">
+            <h3>Partners</h3>
+            <p>
+              Invite other users for full account access and company management.
+            </p>
+          </div>
+          <div class="rhs"><span>$9</span></div>
+        </div>
+      </div>
+      <!--card stop-->
+
+      <!--card star-->
+      <div class="lowa">
+        <div class="st-card">
+          <div class="lhs">
+            <h3>Bonsai Tax</h3>
+            <p>
+              Track expenses, identify write-offs, and estimate quarterly taxes
+              easily.
+            </p>
+            <a href="">LEARN MORE></a>
+          </div>
+          <div class="rhs"><span>$8</span></div>
+        </div>
+      </div>
+      <!--card stop-->
+    </div>
+
+    <div class="urbiz">
+      <h1>It's <span>your</span> business.<br />We're here to help it grow.</h1>
+
+      <a class="low-start">START FREE</a>
+    </div>
+
+    <div class="faq">
+      <h2>Frequently Asked Questions</h2>
+
+      <p>How does the free trial work?</p>
+      <p>Can I change plans anytime?</p>
+      <p>How do I pause my Bonsai subscription?</p>
+      <p>What is your refund policy?</p>
+    </div>
+
+    <div class="footer-sec">
+      <div class="Product">
+        <h3>PRODUCTS</h3>
+        <ul>
+          <li>Proposals</li>
+          <li>Contracts</li>
+          <li>Client CRM</li>
+          <li>Time Tracking</li>
+          <li>Task Tracking</li>
+          <li>Forms</li>
+          <li>Accounting</li>
+          <li>Bonsai Tax</li>
+          <li>Bonsai Cash</li>
+          <li>Pricing</li>
+          <li>Bonsai Reviews</li>
+        </ul>
+      </div>
+      <div class="Product">
+        <h3>FREE RESOURCES</h3>
+        <ul>
+          <li>Freelance Resources</li>
+          <li>Freelance Blog by Bonsai</li>
+          <li>How to Write a Contract</li>
+          <li>Online Signature Maker</li>
+          <li>Self-Employed Taxes Hub</li>
+          <li>Self-Employed Tax Calculator</li>
+          <li>Self-Employed Tax Deductions</li>
+        </ul>
+        <div class="Templates">
+          <span><h3>Templates</h3></span>
+          <ul>
+            <li>Invoice Templates</li>
+            <li>Proposal Templates</li>
+            <li>Contract Templates</li>
+            <li>Agreement Templates</li>
+            <li>Scope of Work Templates</li>
+            <li>Quote Templates</li>
+            <li>Credit Note Templates</li>
+            <li>Estimate Templates</li>
+            <li>Form Templates</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="Product">
+        <h3>BONSAI</h3>
+        <ul>
+          <li>About</li>
+          <li>Careers</li>
+          <li>Support</li>
+          <li>LinkedIn</li>
+          <li>Twitter</li>
+          <li>Privacy policy</li>
+          <li>Accounting</li>
+
+          <li>Affiliates</li>
+          <li>Write for Us</li>
+          <li>Comparisons</li>
+        </ul>
+      </div>
+    </div>
+    <script>
+      function mobnav() {
+        const mobnav = document.querySelector(".mob-nav");
+
+        mobnav.style.display = "flex";
+      }
+
+      function closesvg() {
+        const closesvg = document.querySelector(".mob-nav");
+
+        closesvg.style.display = "none";
+      }
+    </script>
+  </body>
+</html>
