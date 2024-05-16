@@ -746,4 +746,7 @@ li .hide-bugger {
     flex-direction: column;
     margin: 80px 5px;
   }
+
+  .nav>img{
+    display:flex;
 }
