@@ -568,6 +568,11 @@ li .hide-bugger {
     color: var(--grey);
   }
 
+  . features > svg{
+      position: relative;
+      top: 15px;
+  }
+
   .description {
     font-size: 12px;
     font-family: "poppins";
