@@ -568,7 +568,7 @@ li .hide-bugger {
     color: var(--grey);
   }
 
-  . features > svg{
+  .features > svg{
       position: relative;
       top: 15px;
   }
