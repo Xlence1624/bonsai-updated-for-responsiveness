@@ -31,6 +31,7 @@ body {
   top: 0;
   left: 0;
   z-index: 100;
+  overflow: hidden;
 }
 .nav > img {
   height: 100px;
@@ -39,6 +40,7 @@ body {
 ul li a {
   color: var(--grey);
   transition: 200ms ease;
+  width: 100%;
 }
 nav > ul {
   display: flex;
@@ -55,18 +57,13 @@ nav > ul {
   font-size: 14px;
 }
 .nav-menu a:hover {
-  color: #fefcfc;
-  background-color: rgb(192, 215, 206);
+  cursor: pointer;
 }
 
-li {
+nav > ul > li {
   align-items: center;
-  height: 100;
+  height: 100px;
 }
-
-/* .planspricing {
-  border: 3px solid;
-} */
 
 /* uButtons Group */
 .login {
@@ -76,6 +73,7 @@ li {
   padding: 10px 20px;
   color: var(--light-green);
   font-weight: 600;
+  text-align: center;
 }
 
 .login:hover {
@@ -87,9 +85,14 @@ li {
   color: var(--white);
   background: var(--light-green);
   font-size: 16px;
-  padding: 10px 20px;
+  padding: 0 20px;
   border-radius: 3px;
+  text-align: center;
+  font-weight: 600px;
+  font-family: "poppins";
+  position: relative;
 }
+
 /* ============= */
 
 .toggle-switch {
@@ -181,7 +184,7 @@ h1 {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  margin-top: 30px;
+  margin-top: 10px;
   margin-left: 60px;
   margin-right: 60px;
   gap: 20px;
@@ -277,11 +280,6 @@ hr {
   font-family: "poppins";
 }
 
-  .features > svg {
-      position: relative;
-      top: 15px;
-    }
-
 h2 {
   font-family: "poppins";
   color: var(--grey);
@@ -316,7 +314,7 @@ h2 {
   height: 150px;
   border-radius: 5px;
   background-color: rgb(255, 255, 255);
-  margin: 0 60px;
+  margin: 0 20px;
 }
 
 .lhs {
@@ -482,6 +480,18 @@ li .hide-bugger {
   background-color: rgb(238, 238, 238);
 }
 
+.arrow-down {
+  display: inline-block;
+}
+
+.arrow-down svg {
+  height: 14px;
+  width: 26px;
+  position: relative;
+  top: 3px;
+  right: 0;
+}
+
 @media (max-width: 800px) {
   .ham-menu > svg {
     display: flex;
@@ -539,7 +549,7 @@ li .hide-bugger {
   }
 }
 
-@media (max-width: 600px) {
+@media (max-width: 400px) {
   body {
     display: flex;
     flex-direction: column;
@@ -571,11 +581,6 @@ li .hide-bugger {
     font-size: 20px;
     font-weight: 600;
     color: var(--grey);
-  }
-
-  .features > svg{
-      position: relative;
-      top: 15px;
   }
 
   .description {
@@ -756,9 +761,9 @@ li .hide-bugger {
     flex-direction: column;
     margin: 80px 5px;
   }
-
-  .nav>img{
-    display:flex;
 }
 
-  
+.features > svg {
+  position: relative;
+  top: 15px;
+}
