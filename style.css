@@ -146,7 +146,7 @@ nav > ul > li {
   flex-direction: row;
   gap: 200px;
   justify-content: center;
-  margin-top: 70px;
+  margin-top: 30px;
 }
 
 .box1 h2,
@@ -170,7 +170,6 @@ h1 {
   font-size: 17px;
   letter-spacing: 1.22px;
   color: var(--grey);
-
   position: relative;
 }
 
@@ -484,12 +483,18 @@ li .hide-bugger {
   display: inline-block;
 }
 
-
+.arrow-down svg {
+  height: 20px;
+  width: 26px;
+  position: relative;
+  top: 0px;
+  right: 0;
+}
 
 @media (max-width: 800px) {
   .ham-menu > svg {
     display: flex;
-    margin-top: 0px;
+    margin-top: 30px;
   }
   .nav > ul {
     display: none;
@@ -506,9 +511,9 @@ li .hide-bugger {
   .urbiz {
     display: flex;
     flex-direction: row;
-    font-size: 10px;
+
     height: 200px;
-    width: 700px;
+    width: 500px;
     background-color: rgb(225, 243, 225);
     justify-content: center;
     gap: 100px;
@@ -517,11 +522,13 @@ li .hide-bugger {
     padding: 20px;
   }
   .urbiz > div {
-    width: 350px;
+    width: 150px;
+    height: 100px;
   }
 
-  .urbiz > div > h1 {
-    font-size: 20px;
+  .urbiz > h1 {
+    font-size: 30px;
+    top: 10px;
   }
 
   .faq > p {
@@ -531,6 +538,170 @@ li .hide-bugger {
     font-size: 15px;
     font-weight: 700;
     text-align: center;
+  }
+
+  .box1 {
+    padding: 20px;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    gap: 100px;
+    justify-content: center;
+    margin-top: 30px;
+  }
+
+  .box1 h2,
+  .box1 p {
+    margin: 100px;
+  }
+  h1 {
+    position: relative;
+    color: var(--grey);
+    font-weight: 400;
+    font-size: 30px;
+    top: 6px;
+  }
+
+  .plan {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    font-family: "poppins";
+    font-weight: 600;
+    font-size: 17px;
+    letter-spacing: 1.22px;
+    color: var(--grey);
+    top: 20px;
+  }
+
+  .monthfree {
+    position: absolute;
+    top: -30px;
+    left: 105px;
+  }
+
+  .cards-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 10px;
+    gap: 20px;
+    top: 200px;
+    align-content: center;
+  }
+  .cards {
+    border: solid 1px rgb(218, 213, 213);
+    border-radius: 1px;
+    padding: 40px 40px;
+    width: 100%;
+    line-height: 40px;
+  }
+
+  .card-title {
+    font-family: "poppins";
+    font-size: 20px;
+    font-weight: 600;
+    color: var(--grey);
+  }
+
+  .description {
+    font-size: 10px;
+    font-family: "poppins";
+    line-height: 20px;
+    font-weight: 400;
+    color: var(--grey);
+    margin-bottom: 20px;
+    margin-top: 5px;
+    padding-right: 10px;
+  }
+
+  .price-box {
+    font-size: 30px;
+    line-height: 20px;
+    color: var(--grey);
+    font-family: "poppins";
+    font-weight: 600;
+  }
+
+  .currency-symbol {
+    position: relative;
+    z-index: -1;
+    bottom: 20px;
+    font-size: 20px;
+  }
+
+  .duration {
+    font-size: 18px;
+  }
+
+  .features {
+    display: flex;
+    line-height: 50px;
+    gap: 20px;
+    font-family: "poppins";
+    font-size: 12px;
+    color: var(--grey);
+  }
+
+  hr {
+    border: solid 0.5px var(--light-green);
+    margin-bottom: 15px;
+  }
+
+  .card-start {
+    color: var(--white);
+    background: var(--light-green);
+    height: 60px;
+    width: 100%;
+
+    font-size: 10px;
+    font-family: "poppins";
+    border-radius: 3px;
+    margin-top: 30px;
+  }
+  .st {
+    color: var(--white);
+    justify-content: center;
+    position: relative;
+    left: 30%;
+    top: 30%;
+    font-size: 16px;
+    font-weight: 600;
+  }
+
+  .heading h2 {
+    color: var(--grey);
+    font-size: 16px;
+    font-family: "poppins";
+  }
+
+  .heading p {
+    color: var(--grey);
+    font-size: 10px;
+    font-family: "poppins";
+  }
+
+  h2 {
+    font-family: "poppins";
+    color: var(--grey);
+  }
+  .lower-card {
+    font-family: "poppins";
+    color: var(--grey);
+    display: relative;
+    bottom: 200px;
+  }
+  h2 {
+    font-family: "Times New Roman", Times, serif;
+    font-weight: 400;
+    font-size: 40px;
+    align-items: center;
+  }
+  .super {
+    display: flex;
+    justify-content: center;
+    margin-top: 80px;
+    margin-bottom: 50px;
   }
 }
 
@@ -543,37 +714,43 @@ li .hide-bugger {
   }
 }
 
-@media (max-width: 400px) {
+@media (max-width: 600px) {
   body {
     display: flex;
     flex-direction: column;
     height: 100vh;
     width: 100%;
     align-content: center;
-    margin:0;
   }
-  .nav-menu > li {
-    font-size: 18px;
-    
-    
+  .ham-menu > svg {
+    display: flex;
+
+    margin-top: 30px;
   }
 
-  .nav{
-  width:100%;
-  height:90px;}
+  .nav-menu > li {
+    font-size: 18px;
+  }
+  .nav {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 100px;
+    position: fixed;
+  }
 
   .cards-container {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    margin-top: 3px;
-    margin-left: 20px;
-    margin-right: 20px;
-    top: 60px;
+    margin-top: 30px;
+    margin-left: 30px;
+    margin-right: 30px;
+    top: 50px;
   }
   .cards {
     border: solid 1px rgb(218, 213, 213);
-    border-radius: 2px;
+    border-radius: 1px;
     padding: 10px 15px;
   }
 
@@ -601,7 +778,7 @@ li .hide-bugger {
     flex-direction: column;
     gap: 10px;
     justify-content: center;
-    top: 10px;
+    top: 30px;
   }
 
   .box1 h2,
@@ -757,6 +934,9 @@ li .hide-bugger {
     margin-top: 30px;
   }
 
+  .super {
+    text-align: center;
+  }
   .footer-sec {
     display: flex;
     flex-direction: column;
@@ -767,4 +947,10 @@ li .hide-bugger {
 .features > svg {
   position: relative;
   top: 15px;
+}
+
+.arrow-down > svg {
+  position: relative;
+  top: 4px;
+  bottom: 10px;
 }
