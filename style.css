@@ -277,6 +277,11 @@ hr {
   font-family: "poppins";
 }
 
+  .features > svg {
+      position: relative;
+      top: 15px;
+    }
+
 h2 {
   font-family: "poppins";
   color: var(--grey);
@@ -756,7 +761,4 @@ li .hide-bugger {
     display:flex;
 }
 
-    .features > svg{
-      position: relative;
-      top: 15px;
-    }
+  
