@@ -495,7 +495,7 @@ li .hide-bugger {
 @media (max-width: 800px) {
   .ham-menu > svg {
     display: flex;
-    margin-top: 30px;
+    margin-top: 0px;
   }
   .nav > ul {
     display: none;
