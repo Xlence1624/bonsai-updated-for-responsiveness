@@ -756,7 +756,7 @@ li .hide-bugger {
     display:flex;
 }
 
-    . features > svg{
+    .features > svg{
       position: relative;
       top: 15px;
     }
