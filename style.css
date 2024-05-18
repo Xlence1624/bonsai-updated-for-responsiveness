@@ -601,7 +601,7 @@ li .hide-bugger {
     flex-direction: column;
     gap: 10px;
     justify-content: center;
-    top: 50px;
+    top: 10px;
   }
 
   .box1 h2,
