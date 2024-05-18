@@ -567,9 +567,9 @@ li .hide-bugger {
     flex-direction: column;
     justify-content: center;
     margin-top: 3px;
-    margin-left: 3px;
-    margin-right: 3px;
-    top: 50px;
+    margin-left: 20px;
+    margin-right: 20px;
+    top: 60px;
   }
   .cards {
     border: solid 1px rgb(218, 213, 213);
