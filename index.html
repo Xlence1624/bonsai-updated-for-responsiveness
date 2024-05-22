@@ -30,8 +30,14 @@
       </li>
 
       <ul class="nav-menu" id="nav-menu">
-        <li>
-          <a href="#">Product </a>
+        <li class="product">
+          <a
+            href="#"
+            onclick="showDropown()"
+            onmouseover="mouseOver()"
+            onmouseleave="mouseLeave()"
+            >Product
+          </a>
           <div class="arrow-down">
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -87,36 +93,39 @@
 
         <ul class="nav-menu" id="nav-menu">
           <li>
-            <a href="#">Product </a>
-            <div class="arrow-down">
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                height="26px"
-                viewBox="0 -960 960 960"
-                width="26px"
-                fill="#808080"
-              >
-                <path
-                  d="M480-345 240-585l56-56 184 183 184-183 56 56-240 240Z"
-                />
-              </svg>
-            </div>
+            <a href="#"
+              >Product
+              <div class="arrow-down">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  height="26px"
+                  viewBox="0 -960 960 960"
+                  width="26px"
+                  fill="#808080"
+                >
+                  <path
+                    d="M480-345 240-585l56-56 184 183 184-183 56 56-240 240Z"
+                  />
+                </svg>
+              </div>
+            </a>
           </li>
           <li>
-            <a href="#">Templates </a>
-            <div class="arrow-down">
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                height="26px"
-                viewBox="0 -960 960 960"
-                width="26px"
-                fill="#808080"
-              >
-                <path
-                  d="M480-345 240-585l56-56 184 183 184-183 56 56-240 240Z"
-                />
-              </svg>
-            </div>
+            <a href="#"
+              >Templates
+              <div class="arrow-down">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  height="26px"
+                  viewBox="0 -960 960 960"
+                  width="26px"
+                  fill="#808080"
+                >
+                  <path
+                    d="M480-345 240-585l56-56 184 183 184-183 56 56-240 240Z"
+                  />
+                </svg></div
+            ></a>
           </li>
           <li><a href="#">Pricing</a></li>
           <li><a href="#">Reviews</a></li>
@@ -127,6 +136,13 @@
         </ul>
       </div>
     </nav>
+
+    <ul class="product-dropdown">
+      <li><a href="">funds</a></li>
+      <li><a href="">funds</a></li>
+      <li><a href="">funds</a></li>
+      <li><a href="">funds</a></li>
+    </ul>
 
     <!--plans and pricing section-->
 
@@ -1339,6 +1355,17 @@
         const closesvg = document.querySelector(".mob-nav");
 
         closesvg.style.display = "none";
+      }
+
+      function mouseOver() {
+        const mouseOver = document.querySelector(".product-dropdown");
+
+        mouseOver.style.display = "block";
+      }
+
+      function mouseLeave() {
+        const mouseLeave = document.querySelector(".product-dropdown");
+        mouseLeave.style.display = "none";
       }
     </script>
   </body>
