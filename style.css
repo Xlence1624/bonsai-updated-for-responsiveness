@@ -739,7 +739,8 @@ li .hide-bugger {
     width: 150px;
     height: 100px;
      position: relative;
-     display: flex;
+    overflow-x: hidden;
+     max-width: 100%;
      
   }
 
