@@ -456,7 +456,10 @@ h2 {
   border-radius: 5px;
 }
 
-
+.mob-nav img {
+  width: 100px;
+  align-self: flex-start;
+}
 li .hide-bugger {
   display: none;
 }
@@ -481,11 +484,10 @@ li .hide-bugger {
 }
 
 .arrow-down svg {
-  height: 20px;
+  height: 26px;
   width: 26px;
   position: relative;
-  top: 0px;
-  right: 0;
+  right: 10px;
 }
 
 @media (max-width: 800px) {
@@ -493,6 +495,15 @@ li .hide-bugger {
     display: flex;
     margin-top: 30px;
   }
+
+  .arrow-down svg {
+    height: 26px;
+    width: 26px;
+    position: relative;
+    right: 10px;
+    padding-top: 10px;
+  }
+
   .nav > ul {
     display: none;
   }
@@ -721,6 +732,7 @@ li .hide-bugger {
   }
   .ham-menu > svg {
     display: flex;
+
     margin-top: 30px;
   }
 
@@ -731,17 +743,8 @@ li .hide-bugger {
     display: flex;
     flex-direction: row;
     width: 100%;
-    position: fixed;
-    margin-bottom: 30px;
-  }
-
-   .nav > img{
-    width: 150px;
     height: 100px;
-     position: relative;
-    overflow-x: hidden;
-     max-width: 100%;
-     
+    position: fixed;
   }
 
   .cards-container {
@@ -751,7 +754,7 @@ li .hide-bugger {
     margin-top: 30px;
     margin-left: 30px;
     margin-right: 30px;
-    top: 50px;
+    top: 60px;
   }
   .cards {
     border: solid 1px rgb(218, 213, 213);
@@ -783,8 +786,8 @@ li .hide-bugger {
     flex-direction: column;
     gap: 10px;
     justify-content: center;
-    top: 30px;
-    margin-top: 25px;
+    top: 40px;
+    margin-bottom: 12px;
   }
 
   .box1 h2,
@@ -796,7 +799,6 @@ li .hide-bugger {
     font-weight: 400;
     font-size: 25px;
     margin-bottom: 20px;
-    margin-top: 40px;
   }
 
   .plan {
@@ -960,4 +962,12 @@ li .hide-bugger {
   position: relative;
   top: 4px;
   bottom: 10px;
+}
+.product-dropdown {
+  background-color: var(--light-green);
+  width: 200px;
+  position: absolute;
+  left: 550px;
+  display: none;
+  z-index: 1;
 }
