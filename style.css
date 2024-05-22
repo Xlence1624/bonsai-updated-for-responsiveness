@@ -739,8 +739,8 @@ li .hide-bugger {
     margin-bottom: 30px;
   }
 
-   img{
-    width: 100px;
+   .mob-nav > img{
+    
     height: 100px;
      
     
