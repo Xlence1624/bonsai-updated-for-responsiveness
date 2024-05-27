@@ -265,6 +265,7 @@ hr {
   top: 30%;
   font-size: 16px;
   font-weight: 600;
+  text-align: center;
 }
 
 .heading h2 {
@@ -747,6 +748,19 @@ li .hide-bugger {
     position: fixed;
   }
 
+  .start {
+  color: var(--white);
+  background: var(--light-green);
+  font-size: 16px;
+  padding: 0 20px;
+  border-radius: 3px;
+  text-align: center;
+    align-items: center;
+  font-weight: 600px;
+  font-family: "poppins";
+  position: relative;
+  }
+
   .cards-container {
     display: flex;
     flex-direction: column;
@@ -885,6 +899,7 @@ li .hide-bugger {
     border-radius: 5px;
     background-color: rgb(255, 255, 255);
     margin: 0 20px;
+    text-align: center;
   }
 
   .lhs {
