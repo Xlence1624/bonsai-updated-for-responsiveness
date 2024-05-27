@@ -851,7 +851,7 @@ li .hide-bugger {
     background-color: rgb(225, 243, 225);
     justify-content: center;
     margin: 50px auto;
-    padding: 35px;
+    padding: 25px;
     border-radius: 8px;
     gap: 16px;
   }
@@ -860,7 +860,7 @@ li .hide-bugger {
     font-size: 35px;
     font-family: "Times New Roman", Times, serif;
     text-align: center;
-    margin-top: 10px;
+    
   }
 
   .low-start {
