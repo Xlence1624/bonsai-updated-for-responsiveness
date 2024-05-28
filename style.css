@@ -18,6 +18,10 @@
 body {
   font-family: "Poppins", sans-serif;
   min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
 }
 
 .nav {
@@ -30,7 +34,7 @@ body {
   position: sticky;
   top: 0;
   left: 0;
-  z-index: 100;
+  z-index: 1;
   overflow: hidden;
 }
 .nav > img {
@@ -100,6 +104,7 @@ nav > ul > li {
   display: inline-block;
   width: 60px;
   height: 40px;
+  top: 10px;
 }
 
 .toggle-switch__input {
@@ -141,24 +146,17 @@ nav > ul > li {
 
 .box1 {
   padding: 20px;
-  position: relative;
   display: flex;
   flex-direction: row;
-  gap: 200px;
   justify-content: center;
+  gap: 20%;
   margin-top: 30px;
 }
 
-.box1 h2,
-.box1 p {
-  margin: 100px;
-}
 h1 {
-  position: relative;
   color: var(--grey);
   font-weight: 400;
   font-size: 50px;
-  bottom: 30px;
 }
 
 .plan {
@@ -170,29 +168,31 @@ h1 {
   font-size: 17px;
   letter-spacing: 1.22px;
   color: var(--grey);
+  align-items: center;
+  justify-content: center;
+}
+.plan > svg {
   position: relative;
+  bottom: 20px;
+  right: 115px;
 }
-
-.monthfree {
-  position: absolute;
-  top: -30px;
-  left: 105px;
-}
-
 .cards-container {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  margin-top: 10px;
+
   margin-left: 60px;
   margin-right: 60px;
   gap: 20px;
-  top: 200px;
+  top: 50px;
+  position: relative;
 }
 .cards {
   border: solid 1px rgb(218, 213, 213);
   border-radius: 1px;
   padding: 40px 50px;
+  display: flex;
+  flex-direction: column;
 }
 
 .card-title {
@@ -234,6 +234,7 @@ h1 {
 
 .features {
   display: flex;
+  flex-direction: row;
   line-height: 35px;
   gap: 20px;
   font-family: "poppins";
@@ -251,21 +252,28 @@ hr {
   background: var(--light-green);
   height: 60px;
   width: 100%;
-text-align: center;
   font-size: 10px;
   font-family: "poppins";
   border-radius: 3px;
   margin-top: 30px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  justify-self: last baseline;
+}
+.one {
+  margin-top: 160px;
+}
+
+.two {
+  margin-top: 130px;
 }
 .st {
   color: var(--white);
-  justify-content: center;
-  position:relatve;
-  left: 30%;
-  top: 30%;
+  display: flex;
+  align-items: center;
   font-size: 16px;
   font-weight: 600;
-  text-align: center;
 }
 
 .heading h2 {
@@ -287,8 +295,8 @@ h2 {
 .lower-card {
   font-family: "poppins";
   color: var(--grey);
-  display: relative;
   bottom: 200px;
+  position: relative;
 }
 h2 {
   font-family: "Times New Roman", Times, serif;
@@ -356,8 +364,9 @@ h2 {
   align-items: center;
   margin: 50px auto;
   padding: 40px;
-  gap: 100px;
+  gap: 20%;
   font-family: "Times New Roman", Times, serif;
+  border-radius: 6px;
 }
 
 .urbiz > h1 > span {
@@ -520,7 +529,6 @@ li .hide-bugger {
   .urbiz {
     display: flex;
     flex-direction: row;
-
     height: 200px;
     width: 500px;
     background-color: rgb(225, 243, 225);
@@ -533,6 +541,16 @@ li .hide-bugger {
   .urbiz > div {
     width: 150px;
     height: 100px;
+  }
+
+  .box1 {
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    gap: 20%;
+    align-content: center;
+    text-align: center;
+    justify-content: center;
   }
 
   .urbiz > h1 {
@@ -549,44 +567,23 @@ li .hide-bugger {
     text-align: center;
   }
 
-  .box1 {
-    padding: 20px;
-    position: relative;
-    display: flex;
-    flex-direction: row;
-    gap: 100px;
-    justify-content: center;
-    margin-top: 30px;
-  }
-
-  .box1 h2,
-  .box1 p {
-    margin: 100px;
-  }
   h1 {
-    position: relative;
     color: var(--grey);
     font-weight: 400;
-    font-size: 30px;
-    top: 6px;
+    font-size: 29px;
   }
 
   .plan {
     display: flex;
     flex-direction: row;
-    position: relative;
     font-family: "poppins";
     font-weight: 600;
-    font-size: 17px;
+    font-size: 16px;
     letter-spacing: 1.22px;
     color: var(--grey);
-    top: 20px;
-  }
+    position: relative;
 
-  .monthfree {
-    position: absolute;
-    top: -30px;
-    left: 105px;
+    top: 6px;
   }
 
   .cards-container {
@@ -595,7 +592,7 @@ li .hide-bugger {
     justify-content: center;
     margin-top: 10px;
     gap: 20px;
-    top: 200px;
+    top: 30px;
     align-content: center;
   }
   .cards {
@@ -658,11 +655,14 @@ li .hide-bugger {
   }
 
   .card-start {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
     color: var(--white);
     background: var(--light-green);
     height: 60px;
     width: 100%;
-
     font-size: 10px;
     font-family: "poppins";
     border-radius: 3px;
@@ -670,10 +670,6 @@ li .hide-bugger {
   }
   .st {
     color: var(--white);
-    justify-content: center;
-    position: relative;
-    left: 30%;
-    top: 30%;
     font-size: 16px;
     font-weight: 600;
   }
@@ -697,7 +693,7 @@ li .hide-bugger {
   .lower-card {
     font-family: "poppins";
     color: var(--grey);
-    display: relative;
+
     bottom: 200px;
   }
   h2 {
@@ -711,6 +707,12 @@ li .hide-bugger {
     justify-content: center;
     margin-top: 80px;
     margin-bottom: 50px;
+  }
+
+  .plan > svg {
+    position: absolute;
+    bottom: 15px;
+    left: 95px;
   }
 }
 
@@ -727,16 +729,17 @@ li .hide-bugger {
   body {
     display: flex;
     flex-direction: column;
-    height: 100vh;
     width: 100%;
     align-content: center;
   }
   .ham-menu > svg {
     display: flex;
-
-    margin-top: 30px;
   }
-
+  .plan > svg {
+    position: absolute;
+    bottom: 15px;
+    left: 120px;
+  }
   .nav-menu > li {
     font-size: 18px;
   }
@@ -745,31 +748,16 @@ li .hide-bugger {
     flex-direction: row;
     width: 100%;
     height: 100px;
-    position: fixed;
-  }
-
-  .start {
-  color: var(--white);
-  background: var(--light-green);
-  font-size: 16px;
-  padding: 0 20px;
-  border-radius: 3px;
-  text-align: center;
-    align-items: center;
-  font-weight: 600px;
-  font-family: "poppins";
-  position: relative;
+    position: sticky;
   }
 
   .cards-container {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    margin-top: 30px;
-    margin-left: 30px;
-    margin-right: 30px;
-    top: 60px;
+    margin: 20px;
   }
+
   .cards {
     border: solid 1px rgb(218, 213, 213);
     border-radius: 1px;
@@ -798,10 +786,10 @@ li .hide-bugger {
     padding: 20px;
     display: flex;
     flex-direction: column;
-    gap: 10px;
-    justify-content: center;
-    top: 40px;
+    gap: 30px;
+    top: 20px;
     margin-bottom: 12px;
+    justify-content: flex-start;
   }
 
   .box1 h2,
@@ -811,34 +799,18 @@ li .hide-bugger {
   h1 {
     color: var(--grey);
     font-weight: 400;
-    font-size: 25px;
-    margin-bottom: 20px;
+    font-size: 20px;
+    margin-bottom: 10px;
   }
 
   .plan {
     font-family: "poppins";
     font-weight: 600;
-    font-size: 17px;
+    font-size: 12px;
     letter-spacing: 1.22px;
     color: var(--grey);
-  }
-
-  .card-start {
-  color: var(--white);
-  background: var(--light-green);
-  height: 60px;
-  width: 100%;
-text-align: center;
-  font-size: 10px;
-  font-family: "poppins";
-  border-radius: 3px;
-  margin-top: 30px;
-  }
-
-  .monthfree {
-    width: 130px;
-    height: 50px;
-    position: absolute;
+    position: relative;
+    left: 0;
   }
 
   .price-box {
@@ -876,17 +848,17 @@ text-align: center;
     width: 300px;
     background-color: rgb(225, 243, 225);
     justify-content: center;
+    align-items: center;
     margin: 50px auto;
-    padding: 25px;
+    padding: 35px;
     border-radius: 8px;
-    gap: 16px;
+    gap: 20px;
   }
 
   .urbiz > h1 {
     font-size: 35px;
     font-family: "Times New Roman", Times, serif;
     text-align: center;
-    
   }
 
   .low-start {
@@ -911,16 +883,6 @@ text-align: center;
     border-radius: 5px;
     background-color: rgb(255, 255, 255);
     margin: 0 20px;
-    text-align: center;
-    align-items: center;
-  }
-
-  .st {
-  color: var(--white);
-  justify-content: center;
-  font-size: 16px;
-  font-weight: 600;
-  text-align: center;
   }
 
   .lhs {
@@ -991,19 +953,12 @@ text-align: center;
 
 .features > svg {
   position: relative;
-  top: 15px;
+  top: 12px;
+  left: 10px;
 }
 
 .arrow-down > svg {
   position: relative;
   top: 4px;
   bottom: 10px;
-}
-.product-dropdown {
-  background-color: var(--light-green);
-  width: 200px;
-  position: absolute;
-  left: 550px;
-  display: none;
-  z-index: 1;
 }
