@@ -734,11 +734,12 @@ li .hide-bugger {
   }
   .ham-menu > svg {
     display: flex;
+    margin: 0 16px 16px 0;
   }
   .plan > svg {
     position: absolute;
     bottom: 15px;
-    left: 120px;
+    left: 150px;
   }
   .nav-menu > li {
     font-size: 18px;
